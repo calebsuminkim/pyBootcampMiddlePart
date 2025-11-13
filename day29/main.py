@@ -1,6 +1,17 @@
+from asyncore import write
 from tkinter import *
 
+def save():
+    with open("data.txt", "a") as f:
+        f.write(f"{website_entry.get()} | {email_entry.get()} | {password_entry.get()} \n")
+        website_entry.delete(0, 'end')
+        email_entry.delete(0, 'end')
+        password_entry.delete(0, 'end')
 
+def clear():
+    website_entry.delete(0)
+    email_entry.delete(0)
+    password_entry.delete(0)
 # ---------------------------- PASSWORD GENERATOR ------------------------------- #
 
 # ---------------------------- SAVE PASSWORD ------------------------------- #
@@ -37,10 +48,8 @@ password_entry.grid(row=3, column=1)
 #Buttons
 generate_password_button = Button(text="Generate Password")
 generate_password_button.grid(row=3, column=2)
-add_button = Button(text="Add", width=36)
+add_button = Button(text="Add", width=36, command=save)
 add_button.grid(row=4, column=1, columnspan=2)
-
-
 
 
 

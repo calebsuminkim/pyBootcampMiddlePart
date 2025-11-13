@@ -1,0 +1,24 @@
+facebooook | example@gmail.com | cafebook 
+facebooook | example@gmail.com | cafebook 
+facebooook | example@gmail.com | cafebook 
+Udemy | example@gmail.com | udemypassword 
+demy | xample@gmail.com | demypassword 
+emy | ample@gmail.com | emypassword 
+my | mple@gmail.com | mypassword 
+y | ple@gmail.com | ypassword 
+ | le@gmail.com | password 
+ | e@gmail.com | assword 
+ | @gmail.com | ssword 
+ | gmail.com | sword 
+ | mail.com | word 
+ | ail.com | ord 
+ | il.com | rd 
+ | l.com | d 
+ | .com |  
+ | com |  
+ | om |  
+ | m |  
+ |  |  
+ |  |  
+udemy | example@gmail.com | duemy 
+Udemy | example@gmail.com | myojindemy 
